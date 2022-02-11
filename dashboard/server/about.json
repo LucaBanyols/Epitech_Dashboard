@@ -1,0 +1,107 @@
+{
+    "client": {
+        "host": "10.101.53.35"
+    },
+    "server": {
+        "current_time": 1531680780,
+        "services": [{
+            "name": "weather",
+            "widgets": [{
+                "name": "current_weather_data",
+                "description": "Access current weather data for any location including over 200,000 cities",
+                "params": [{
+                    "name": "city",
+                    "type": "string"
+                }, {
+                    "name": "country",
+                    "type": "string"
+                }]
+            }]
+        }, {
+            "name": "pokemon",
+            "widgets": [{
+                "name": "pokemon_stats",
+                "description": "Access data about any pokemon",
+                "params": [{
+                    "name": "pokemonName",
+                    "type": "string"
+                }, {
+                    "name": "pokemon_type",
+                    "description": "Access data about any pokemon type",
+                    "params": [{
+                        "name": "pokemonType",
+                        "type": "string"
+                    }]
+                }]
+            }]
+        }, {
+            "name": "crypto",
+            "widgets": [{
+                "name": "markets",
+                "description": "List all supported coins price, market cap, volume, and market related data"
+            }]
+        }, {
+            "name": "breakingbad",
+            "widgets": [{
+                "name": "characters_name",
+                "description": "Access data about any BreakingBad characters",
+                "params": [{
+                    "name": "name",
+                    "type": "string"
+                }]
+            }]
+        }, {
+            "name": "googlemap",
+            "widgets": [{
+                "name": "googlemap_nagation",
+                "description": "Navigate around the world"
+            }]
+        }, {
+            "name": "wiki",
+            "widgets": [{
+                "name": "wiki_search",
+                "description": "Search data in the wiki",
+                "params": [{
+                    "name": "search",
+                    "type": "string"
+                }]
+            }]
+        }, {
+            "name": "anime database",
+            "widgets": [{
+                "name": "top 5 most popular anime",
+                "description": "Display the actual top 5 of Most Popular Animes on MyAnimeList"
+            }, {
+                "name": "Searching for anime",
+                "description": "Display list of anime related with the name entered in the reaserch bar and each anime of this list redirect to it MyAnimeList form",
+                "params": [{
+                    "name": "anime_name",
+                    "type": "string"
+                }]
+            }, {
+                "name": "top 5 most popular manga",
+                "description": "Display the actual top 5 of Most Popular Mangas on MyAnimeList"
+            }, {
+                "name": "Searching for manga",
+                "description": "Display list of manga related with the name entered in the reaserch bar and each manga of this list redirect to it MyAnimeList form",
+                "params": [{
+                    "name": "manga_name",
+                    "type": "string"
+                }]
+            }]
+        }, {
+            "name": "currency",
+            "widgets": [{
+                "name": "convert_money",
+                "description": "Get conversion value with two differents money",
+                "params": [{
+                    "name": "money_from",
+                    "type": "string"
+                }, {
+                    "name": "money_to",
+                    "type": "string"
+                }]
+            }]
+        }]
+    }
+}
